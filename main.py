@@ -4,7 +4,6 @@ A -> Z and a -> z and likewise. Also known as Atbash Cipher
 '''
 
 print("\nThis is a classic Atbash Cipher\n")
-
 string=""
 ch=input("Enter text: ")
 for i in ch:
@@ -30,6 +29,3 @@ for i in ch:
         string += i
     
 print("Atbash result: ",string)
-    
-        
-        
